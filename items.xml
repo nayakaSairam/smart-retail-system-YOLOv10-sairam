@@ -1,2 +1,4 @@
+#--HASHMAP LINKING WIGHT TO PRICE--#
+
 <?xml version='1.0' encoding='utf-8'?>
 <items><item name="Thumsup" weight="320" price="40.00" sold_by_weight="False" /><item name="Parachute" weight="55" price="20.00" sold_by_weight="False" /><item name="Parachute" weight="44" price="10.00" sold_by_weight="False" /><item name="Apple" weight="1" price="0.750" sold_by_weight="True" /><item name="Cup Noodles_Tomato" weight="115" price="50.00" sold_by_weight="False" /><item name="Rice" weight="1" price="0.50" sold_by_weight="True" /></items>
