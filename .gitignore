@@ -1,0 +1,18 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter and temp files
+.ipynb_checkpoints/
+*.log
+*.DS_Store
+
+# Model weights & outputs
+runs/
+*.pt
+*.onnx
+*.tflite
