@@ -5,3 +5,5 @@ qrcode==7.4.2
 Pillow==10.3.0
 twilio==9.0.1
 RPi.GPIO==0.7.1
+opencv-python==4.9.0.80
+ultralytics==8.1.25
