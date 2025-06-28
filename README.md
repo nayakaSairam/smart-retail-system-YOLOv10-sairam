@@ -1,18 +1,16 @@
 # 🛒 Smart Retail Billing System
-
-An end-to-end, cutting-edge smart billing system combining YOLOv10 object detection, Raspberry Pi interfacing, and UPI payments—featuring real-time product detection, weight-based validation, receipt generation, and WhatsApp delivery.
+An intelligent retail automation system that integrates YOLOv10-based object detection, Raspberry Pi hardware, UPI payments, and WhatsApp receipt delivery. This project demonstrates real-time product detection, fraud-prevention via weight verification, and digital billing—all packed into an intuitive Python + Streamlit interface.
 
 ---
 
 ## 🚀 Key Features
 
-* **🎯 Real-Time Object Detection**: Detects items instantly using a custom YOLOv10 ONNX model (`best_AR.onnx`).
-* **⚖️ Weight Verification**: Validates item authenticity and fraud-prevention with load cell integration via HX711.
-* **💸 Dynamic Pricing Engine**: Uses nearest-weight matching from `items.xml` for accurate pricing.
-* **📊 Seamless Streamlit UI**: Cart view, quantity editing, and expense distribution graph with Plotly.
-* **💳 Multi-Modal Payment**: Supports UPI (QR generation), Cash, Card—all from the frontend.
-* **📱 WhatsApp Receipt**: Automatically sends a beautifully formatted digital receipt via Twilio.
-* **🧾 Logging & Audit Trail**: Stores each transaction securely in `transactions.log`.
+- 🎯 **YOLOv10 Detection**: Detect items instantly using a custom-trained YOLOv10 ONNX model (`best_AR.onnx`).
+- ⚖️ **Weight Validation**: Secure transactions by comparing actual weight (via HX711) with predefined item weights.
+- 🧾 **Dynamic Cart & Billing**: Real-time cart, pricing, quantity adjustment, and expense summaries via a Streamlit dashboard.
+- 💸 **Multi-Mode Payment**: Supports UPI (QR generation), Cash, and Card.
+- 📱 **WhatsApp Receipt Delivery**: Sends receipts digitally using Twilio integration.
+- 🔐 **Secure Logs**: Stores all transactions with timestamped logs for audit purposes.
 
 ---
 
